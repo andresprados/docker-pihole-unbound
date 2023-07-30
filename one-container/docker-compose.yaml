@@ -11,9 +11,9 @@ networks:
       parent: eth0  # Name of the Network Interface (check in OMV GUI in Network >> Interfaces >> Name
     ipam:
       config:
-        - subnet: 192.168.1.0/24          # Specify subnet
-          gateway: 192.168.1.1            # Gateway address / address of router
-          ip_range: 192.168.1.100/32       # 192.168.0.13 and 192.168.0.14ipv4_address: 192.168.0.40
+        - subnet: 192.168.178.0/24          # Specify subnet
+          gateway: 192.168.178.1            # Gateway address / address of router
+          ip_range: 192.168.178.100/32       # 192.168.0.13 and 192.168.0.14ipv4_address: 192.168.0.40
           
 services:
   pihole:
